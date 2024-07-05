@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('clone git repo') {
             steps {
-                git 'https://github.com/ashokitschool/maven-web-app.git'
+                git 'https://github.com/afari-darko/test-maven-app.git'
             }
         }
         stage('SonarQube Analysis') {
